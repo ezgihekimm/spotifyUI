@@ -1,0 +1,63 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    background: linear-gradient(180deg, #1F1F1F 0.06%, #111 36.04%, #111 100%);
+    padding: 30px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.focus{
+    font-size: 19px;
+    color: #ffff;
+    flex: 1;
+}
+
+.show{
+    font-size: 12px;
+    color: #B3B3B3;
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+    flex-wrap: wrap;
+
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5.152px;
+    background: #161616;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.songName{
+    color: #FFF;
+    font-size: 12.02px;
+    font-weight: 800;
+    padding-bottom: 12.879px;
+    padding-left: 12.9px;
+    
+}
+.songDescription{
+    color: #B3B3B3;
+    font-size: 10.303px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18.031px;
+    padding-left: 12.9px;
+    padding-bottom: 17.17px;
+    width: 149.396px;
+}

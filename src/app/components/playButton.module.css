@@ -1,0 +1,11 @@
+.playButton{
+    display: none;
+    background-color: aquamarine;
+    width: 10px;
+    height: 10px;
+    border-radius: 80%;
+    border: none;
+}
+.playButton:hover{
+    display: block;
+}
